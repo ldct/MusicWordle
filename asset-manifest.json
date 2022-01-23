@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MusicWordle/static/css/main.c6d4cad4.css",
-    "main.js": "/MusicWordle/static/js/main.4c131a8b.js",
+    "main.js": "/MusicWordle/static/js/main.4d4ad58d.js",
     "static/js/787.3500bfec.chunk.js": "/MusicWordle/static/js/787.3500bfec.chunk.js",
     "index.html": "/MusicWordle/index.html",
     "main.c6d4cad4.css.map": "/MusicWordle/static/css/main.c6d4cad4.css.map",
-    "main.4c131a8b.js.map": "/MusicWordle/static/js/main.4c131a8b.js.map",
+    "main.4d4ad58d.js.map": "/MusicWordle/static/js/main.4d4ad58d.js.map",
     "787.3500bfec.chunk.js.map": "/MusicWordle/static/js/787.3500bfec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6d4cad4.css",
-    "static/js/main.4c131a8b.js"
+    "static/js/main.4d4ad58d.js"
   ]
 }
