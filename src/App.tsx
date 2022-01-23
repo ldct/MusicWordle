@@ -5,7 +5,7 @@ import { Keyboard } from './components/keyboard/Keyboard'
 import { AboutModal } from './components/modals/AboutModal'
 import { InfoModal } from './components/modals/InfoModal'
 import { WinModal } from './components/modals/WinModal'
-import { isWordInWordList, isWinningWord, solution, makeAllWordsArray } from './lib/words'
+import { isWordInWordList, isWinningWord, solution } from './lib/words'
 import {
   loadGameStateFromLocalStorage,
   saveGameStateToLocalStorage,
@@ -92,10 +92,10 @@ function App() {
       />
       <div className="flex w-80 mx-auto items-center mb-8">
 
-        <img src= "https://www.bowerypresents.com/assets/img/logo.png" alt=""
-        style={{ marginLeft:'auto', marginRight:'auto' }}
+        <p
+        style={{ marginLeft:'auto', marginRight:'auto', fontSize: 24 }}
         onClick={() => setIsInfoModalOpen(true)}
-        />
+        >NOT WORDLE</p>
 
       </div>
       <Grid guesses={guesses} currentGuess={currentGuess} />

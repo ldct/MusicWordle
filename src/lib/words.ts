@@ -17,6 +17,7 @@ var seed = 1337 ^ 0xDEADBEEF;
 var rand = sfc32(0x9E3779B9, 0x243F6A88, 0xB7E15162, seed);
 for (var i = 0; i < 15; i++) rand();
 
+/* eslint-disable */
 function sfc32(a: any, b: any, c: any, d: any) {
   return function() {
     a >>>= 0; b >>>= 0; c >>>= 0; d >>>= 0;
@@ -62,10 +63,17 @@ export const solutionIndex = parseInt(getParameterByName("seed"), 10);
 const allWordsArray = makeAllWordsArray();
 export const solution = allWordsArray[solutionIndex];
 
+let target = getParameterByName("target")
+if (target.length == 5) {
+  alert("your seed is " + allWordsArray.indexOf(target));
+}
+
+
 export const isWinningWord = (word: string) => {
   return solution === word
 }
 
+/* eslint-disable */
 function getParameterByName(name: string, url = window.location.href): string {
   name = name.replace(/[\[\]]/g, '\\$&');
   var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -76,5 +84,3 @@ function getParameterByName(name: string, url = window.location.href): string {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-
-console.log(allWordsArray.indexOf("ROTOR"));
