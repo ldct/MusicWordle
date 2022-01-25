@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NotWordle/static/css/main.8f6b09b8.css",
-    "main.js": "/NotWordle/static/js/main.0e24af3b.js",
+    "main.css": "/NotWordle/static/css/main.c6d4cad4.css",
+    "main.js": "/NotWordle/static/js/main.b6e60ccb.js",
     "static/js/787.3500bfec.chunk.js": "/NotWordle/static/js/787.3500bfec.chunk.js",
     "index.html": "/NotWordle/index.html",
-    "main.8f6b09b8.css.map": "/NotWordle/static/css/main.8f6b09b8.css.map",
-    "main.0e24af3b.js.map": "/NotWordle/static/js/main.0e24af3b.js.map",
+    "main.c6d4cad4.css.map": "/NotWordle/static/css/main.c6d4cad4.css.map",
+    "main.b6e60ccb.js.map": "/NotWordle/static/js/main.b6e60ccb.js.map",
     "787.3500bfec.chunk.js.map": "/NotWordle/static/js/787.3500bfec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f6b09b8.css",
-    "static/js/main.0e24af3b.js"
+    "static/css/main.c6d4cad4.css",
+    "static/js/main.b6e60ccb.js"
   ]
 }
