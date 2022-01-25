@@ -1,4 +1,3 @@
-import { WORDS } from '../constants/wordlist'
 import { VALIDGUESSES } from '../constants/validGuesses'
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -54,7 +53,6 @@ export const makeAllWordsArray = () => {
 
 export const isWordInWordList = (word: string) => {
   return (
-    WORDS.includes(word.toLowerCase()) ||
     VALIDGUESSES.includes(word.toLowerCase())
   )
 }
