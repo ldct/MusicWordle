@@ -31,7 +31,7 @@ export const shareStatus = (guesses: string[]) => {
     shareString += `\nauthor: ${sanitize(author)}`
   }
 
-  shareString += `\n\n ${generateEmojiGrid(guesses)}`
+  shareString += `\n\n${generateEmojiGrid(guesses)}`
   navigator.clipboard.writeText(
     shareString
   );
